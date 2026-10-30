@@ -1,0 +1,18 @@
+-- USE healthcare_readmission;
+-- SELECT DATABASE();
+
+-- SELECT
+--     COUNT(*) AS total_rows,
+--     COUNT(DISTINCT encounter_id) AS unique_encounters
+-- FROM diabetes_readmission;
+-- SELECT
+--     readmitted_30,
+--     COUNT(*) AS total_encounters,
+--     ROUND(
+--         COUNT(*) * 100.0 /
+--         (SELECT COUNT(*) FROM diabetes_readmission),
+--         2
+--     ) AS percentage
+-- FROM diabetes_readmission
+-- GROUP BY readmitted_30
+-- ORDER BY readmitted_30;
